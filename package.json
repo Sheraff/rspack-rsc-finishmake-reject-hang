@@ -1,0 +1,16 @@
+{
+  "name": "rspack-rsc-finishmake-reject-hang",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "node repro.mjs"
+  },
+  "dependencies": {
+    "@rsbuild/core": "2.3.3",
+    "@rsbuild/plugin-react": "2.1.1",
+    "react": "19.2.9",
+    "react-dom": "19.2.9",
+    "react-server-dom-rspack": "0.1.1",
+    "rsbuild-plugin-rsc": "0.1.1"
+  }
+}
