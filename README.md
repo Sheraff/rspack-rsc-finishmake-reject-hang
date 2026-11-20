@@ -1,6 +1,6 @@
 # Rspack RSC: a server `finishMake` tap that rejects before stage 0 makes the build hang
 
-Reproduction for an Rspack issue (link added once filed).
+Reproduction for https://github.com/web-infra-dev/rspack/issues/16784.
 
 Plain Rsbuild + `rsbuild-plugin-rsc`, no framework. `rsbuild.config.mjs` adds a plugin to the server
 environment whose `finishMake` tap rejects at `REJECT_STAGE`.
